@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item id="mosin_nagant_m91_bm168"
+        name="Mosin Nagant M91"
+        body_name="bo_cross_bow_heavy"
+        mesh="mosin_nagant_m91_bm168"
+        culture="Culture.sturgia"
+        weight="12.0"
+        appearance="6"
+        difficulty="0"
+        Type="Crossbow"
+        AmmoOffset="0.0, 0.02131, 0.22975"
+        item_holsters="bow_back:bow_back_2"
+        holster_position_shift="-0.02,0,-0.2"
+        is_merchandise="true"
+        value="25000" >
+    <ItemComponent>
+      <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+              ammo_limit="1"
+              thrust_speed="95"
+              speed_rating="73"
+              missile_speed="525"
+              weapon_length="120"
+              accuracy="120"
+              thrust_damage="500"
+              thrust_damage_type="Pierce"
+              item_usage="mosin_nagant_0_usage"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,0.4"
+              position="0.00, 0.02, 0.12"
+              rotation="0.0, 0.0, 0.0" >
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     CanPenetrateShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="mosin_bullet"
+        name="Mosin Nagant Bullet"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="mosin_nagant_bullet"
+        holster_mesh="stone_holster"
+        holster_mesh_with_weapon="stone_holster"
+        flying_mesh="mosin_nagant_bullet"
+        weight="0.05"
+        appearance="6"
+        Type="Bolts"
+        item_holsters="throwing_stone:throwing_stone_2:"
+        is_merchandise="true" >
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="50"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="10"
+              thrust_damage="500"
+              thrust_damage_type="Pierce"
+              weapon_length="37"
+              item_usage=""
+              rotation="0, 0, 0"
+              physics_material="missile"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+              trail_particle_name="mosin_smoke"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              center_of_mass="0,0,-0.1" >
+        <WeaponFlags Consumable="true"
+                     AmmoSticksWhenShot="true"
+                     AmmoBreaksOnBounceBack="true"
+                     LeavesTrail="true"
+                     CanPenetrateShield="true"
+                     CanKnockDown="true"
+                     Burning="true" />
+      </Weapon>
+    </ItemComponent>
+  </Item>
+</Items>

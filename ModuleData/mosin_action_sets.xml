@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action_sets>
+	
+  <action_set id="as_human_warrior" skeleton="human_skeleton" movement_system="bipedal" base_set="as_human_warrior">	
+	
+	<action type="act_reload_crossbow_custom_1second" animation="reload_crossbow_custom_1second" />
+	<action type="act_reload_crossbow_continue_custom_2seconds" animation="reload_crossbow_continue_custom_2seconds" />
+	
+	<action type="act_reload_crossbow_horseback_musket_1second" animation="reload_crossbow_horseback_musket_1second" />
+	<action type="act_reload_crossbow_continue_horseback_musket_2seconds" animation="reload_crossbow_continue_horseback_musket_2seconds" />	
+
+    <action type="act_release_mosin_nagant" animation="release_mosin_nagant" />	
+
+    <action type="act_release_winchester_1877" animation="release_winchester_1877" />	
+
+  </action_set>
+  
+</action_sets>

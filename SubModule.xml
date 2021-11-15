@@ -1,0 +1,27 @@
+<Module>
+	<Name value="mosin_nagant_m91"/>
+	<Id value="mosin_nagant_m91"/>
+	<Version value="e1.5.9"/>
+	<DefaultModule value="false"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Official value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="Items" path="mosin_nagant_items"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>
+
